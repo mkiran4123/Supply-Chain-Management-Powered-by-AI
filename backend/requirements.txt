@@ -1,0 +1,23 @@
+# FastAPI and related packages
+fastapi>=0.95.0
+uvicorn>=0.21.1
+pydantic>=2.7.4,<3.0.0
+python-multipart>=0.0.6
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+email-validator>=2.0.0
+
+# Database related
+sqlalchemy>=2.0.9
+sqlite3-api>=0.1.0
+psycopg2-binary>=2.9.5
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# OpenAI API
+openai>=0.27.0
+
+# Other utilities
+pandas==2.0.0
+openpyxl>=3.1.2
